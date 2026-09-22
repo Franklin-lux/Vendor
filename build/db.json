@@ -1,0 +1,46 @@
+{
+  "userProfile": {
+    "createProfile": {
+      "firstName": "BALAJI",
+      "lastName": "R",
+      "email": "14@gmail.com",
+      "emailVerified": true
+    },
+    "kycDetails": {
+      "aadhaar": {
+        "aadhaarNumber": "123456789034",
+        "name": "balaji",
+        "dateOfBirth": "1999-06-16",
+        "document": "Screenshot 2026-09-03 145923.png"
+      },
+      "pan": {
+        "panNumber": "DWHDGH2354",
+        "name": "BALAJI",
+        "document": "Screenshot 2026-09-07 113347.png"
+      }
+    },
+    "gstDetails": {
+      "gstNumber": "123456789023456",
+      "legalName": "balaji",
+      "businessType": "Private Limited",
+      "registrationNumber": "12345678",
+      "businessAddress": "sdfl",
+      "gst": {
+        "document": "Screenshot 2026-09-03 145923.png"
+      }
+    },
+    "bankDetails": {
+      "accountNumber": "6257890",
+      "holderName": "balaji",
+      "ifscCode": "VHG456537HG",
+      "branchAddress": "guindy",
+      "bank": {
+        "document": "Screenshot 2026-09-11 122720.png"
+      }
+    },
+    "agreement": {
+      "accepted": true
+    }
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
