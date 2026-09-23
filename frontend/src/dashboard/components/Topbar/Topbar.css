@@ -1,0 +1,53 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-bottom: 1px solid #eceae4;
+  padding: 16px 28px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto,
+    sans-serif;
+}
+.topbar-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+.topbar-notif {
+  font-size: 13px;
+  color: #9a9a9a;
+  cursor: pointer;
+}
+.topbar-user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.topbar-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #d7f2e4;
+  color: #16794f;
+  font-size: 11px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.topbar-user-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1a1a1a;
+  line-height: 1.3;
+}
+.topbar-user-sub {
+  font-size: 11px;
+  color: #9a9a9a;
+}

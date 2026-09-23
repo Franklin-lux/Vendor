@@ -1,0 +1,274 @@
+{
+  "orders": [
+    {
+      "id": "CS-10284",
+      "placedOn": "18 Sep 2026, 10:10 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "LAVANYA",
+        "phone": "+91 98765 43210",
+        "email": "lavanya@gmail.com",
+        "address": "No.18, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2040",
+          "name": "Crimson Silk Kanjeevaram",
+          "meta": "Handloom · Crimson Red",
+          "sku": "SKU: SL-EM-2040",
+          "qty": 1,
+          "price": 2450,
+          "image": "/src/assets/pic2.png"
+        }
+      ],
+      "payment": {
+        "method": "UPI",
+        "itemsTotal": 2450,
+        "deliveryFee": 50
+      }
+    },
+    {
+      "id": "CS-10285",
+      "placedOn": "17 Sep 2026, 10:11 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "DHANUSH",
+        "phone": "+91 98765 43211",
+        "email": "dhanush@gmail.com",
+        "address": "No.19, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2041",
+          "name": "Midnight Blue Banarasi Saree",
+          "meta": "Handwoven · Midnight Blue",
+          "sku": "SKU: SL-EM-2041",
+          "qty": 2,
+          "price": 2550,
+          "image": "/src/assets/pic3.png"
+        }
+      ],
+      "payment": {
+        "method": "COD",
+        "itemsTotal": 5100,
+        "deliveryFee": 0
+      }
+    },
+    {
+      "id": "CS-10286",
+      "placedOn": "16 Sep 2026, 10:12 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "CHIRAG",
+        "phone": "+91 98765 43212",
+        "email": "chirag@gmail.com",
+        "address": "No.20, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2042",
+          "name": "Golden Tissue Saree",
+          "meta": "Zari Weave · Golden",
+          "sku": "SKU: SL-EM-2042",
+          "qty": 3,
+          "price": 2650,
+          "image": "/src/assets/pic4.png"
+        }
+      ],
+      "payment": {
+        "method": "UPI",
+        "itemsTotal": 7950,
+        "deliveryFee": 0
+      }
+    },
+    {
+      "id": "CS-10287",
+      "placedOn": "15 Sep 2026, 10:13 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "SASI",
+        "phone": "+91 98765 43213",
+        "email": "sasi@gmail.com",
+        "address": "No.21, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2043",
+          "name": "Ruby Red Bridal Saree",
+          "meta": "Bridal Collection · Ruby Red",
+          "sku": "SKU: SL-EM-2043",
+          "qty": 1,
+          "price": 2750,
+          "image": "/src/assets/pic5.png"
+        }
+      ],
+      "payment": {
+        "method": "COD",
+        "itemsTotal": 2750,
+        "deliveryFee": 50
+      }
+    },
+    {
+      "id": "CS-10288",
+      "placedOn": "14 Sep 2026, 10:14 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "PAVITHRA",
+        "phone": "+91 98765 43214",
+        "email": "pavithra@gmail.com",
+        "address": "No.22, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2044",
+          "name": "Pastel Pink Organza Saree",
+          "meta": "Sheer · Pastel Pink",
+          "sku": "SKU: SL-EM-2044",
+          "qty": 2,
+          "price": 2850,
+          "image": "/src/assets/pic6.png"
+        }
+      ],
+      "payment": {
+        "method": "UPI",
+        "itemsTotal": 5700,
+        "deliveryFee": 0
+      }
+    },
+    {
+      "id": "CS-10289",
+      "placedOn": "13 Sep 2026, 10:15 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "GOPIKA",
+        "phone": "+91 98765 43215",
+        "email": "gopika@gmail.com",
+        "address": "No.23, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2045",
+          "name": "Royal Purple Patola",
+          "meta": "Ikat · Royal Purple",
+          "sku": "SKU: SL-EM-2045",
+          "qty": 3,
+          "price": 2950,
+          "image": "/src/assets/pic7.png"
+        }
+      ],
+      "payment": {
+        "method": "Card",
+        "itemsTotal": 8850,
+        "deliveryFee": 0
+      }
+    },
+    {
+      "id": "CS-10290",
+      "placedOn": "12 Sep 2026, 10:16 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "AMMU",
+        "phone": "+91 98765 43216",
+        "email": "ammu@gmail.com",
+        "address": "No.24, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2046",
+          "name": "Ivory Chanderi Silk",
+          "meta": "Lightweight · Ivory White",
+          "sku": "SKU: SL-EM-2046",
+          "qty": 1,
+          "price": 3050,
+          "image": "/src/assets/pic8.png"
+        }
+      ],
+      "payment": {
+        "method": "UPI",
+        "itemsTotal": 3050,
+        "deliveryFee": 50
+      }
+    },
+    {
+      "id": "CS-10291",
+      "placedOn": "11 Sep 2026, 10:17 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "NIVETHA",
+        "phone": "+91 98765 43217",
+        "email": "nivetha@gmail.com",
+        "address": "No.25, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2047",
+          "name": "Turmeric Yellow Cotton Saree",
+          "meta": "Everyday Wear · Yellow",
+          "sku": "SKU: SL-EM-2047",
+          "qty": 2,
+          "price": 3150,
+          "image": "/src/assets/pic9.png"
+        }
+      ],
+      "payment": {
+        "method": "Card",
+        "itemsTotal": 6300,
+        "deliveryFee": 0
+      }
+    },
+    {
+      "id": "CS-10292",
+      "placedOn": "10 Sep 2026, 10:18 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "PRIYA",
+        "phone": "+91 98765 43218",
+        "email": "priya@gmail.com",
+        "address": "No.26, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2048",
+          "name": "Peacock Blue Mysore Silk",
+          "meta": "Pure Silk · Peacock Blue",
+          "sku": "SKU: SL-EM-2048",
+          "qty": 3,
+          "price": 3250,
+          "image": "/src/assets/pic3.png"
+        }
+      ],
+      "payment": {
+        "method": "UPI",
+        "itemsTotal": 9750,
+        "deliveryFee": 0
+      }
+    },
+    {
+      "id": "CS-10293",
+      "placedOn": "9 Sep 2026, 10:19 AM",
+      "status": "New Order",
+      "customer": {
+        "name": "KAVIYA",
+        "phone": "+91 98765 43219",
+        "email": "kaviya@gmail.com",
+        "address": "No.27, Ambathur, Chennai – 600002"
+      },
+      "items": [
+        {
+          "id": "SL-EM-2049",
+          "name": "Emerald Heritage Saree",
+          "meta": "Handloom · Emerald Green",
+          "sku": "SKU: SL-EM-2049",
+          "qty": 1,
+          "price": 3350,
+          "image": "/src/assets/pic1.png"
+        }
+      ],
+      "payment": {
+        "method": "Card",
+        "itemsTotal": 3350,
+        "deliveryFee": 50
+      }
+    }
+  ]
+}

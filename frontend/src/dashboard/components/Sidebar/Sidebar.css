@@ -1,0 +1,123 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 203px;
+  height: 100vh;
+  background: #173d2e;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto,
+    sans-serif;
+}
+
+.sidebar-brand,
+.sidebar-nav,
+.sidebar-footer {
+  padding-left: 22px;
+  padding-right: 18px;
+}
+
+.sidebar-brand {
+  padding-top: 22px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+.sidebar-brand-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: flex-start;
+}
+.sidebar-brand-row svg {
+  margin-top: 2px;
+}
+.sidebar-brand-name {
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1;
+  text-align: left;
+}
+.sidebar-brand-sub {
+  margin: 7px 0 0;
+  font-size: 9px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  color: rgba(255, 255, 255, 0.45);
+  text-align: left;
+}
+
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-top: 2px;
+}
+.sidebar-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin: 0 -4px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.7);
+  background: transparent;
+  border: none;
+  width: calc(100% + 8px);
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.sidebar-nav-item:hover {
+  background: #1f9d6c;
+  color: #fff;
+}
+.sidebar-nav-item.active {
+  background: #1f9d6c;
+  color: #fff;
+  font-weight: 500;
+}
+.sidebar-nav-item svg {
+  flex-shrink: 0;
+  opacity: 0.9;
+}
+
+
+.sidebar-footer {
+  padding-bottom: 24px;
+  text-align: left;
+}
+.sidebar-tagline {
+  margin: 0 0 14px;
+  font-size: 10px;
+  line-height: 1.55;
+  color: rgba(255, 255, 255, 0.45);
+  white-space: pre-line;
+  text-align: left;
+}
+.sidebar-divider {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 -18px 14px 0;
+}
+.sidebar-logout {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 9px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.7);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+.sidebar-logout:hover {
+  color: #fff;
+}
